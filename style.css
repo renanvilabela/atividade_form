@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background-image: url(assets/img/bg-header.webp);
+  height: 300px;
+  width: 100%;
+}
+header .header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 950px;
+  margin: auto;
+}
+header .logo-img img {
+  justify-content: start;
+  width: 230px;
+  height: 75px;
+}
+header .lamp-img img {
+  width: 150px;
+  height: 150px;
+}
+header h1 {
+  justify-content: start;
+  align-items: center;
+  color: rgb(26, 136, 26);
+  display: flex;
+}
+header h2 {
+  color: orange;
+}
+header h3 {
+  color: orange;
+}
+header h4 {
+  color: rgb(26, 136, 26);
+}
+header h5 {
+  color: rgb(26, 136, 26);
+}
+header button {
+  width: 90px;
+  height: 40px;
+  justify-content: start;
+  border-radius: 10px;
+  border: 1px rgba(255, 255, 255, 0);
+  background-color: orange;
+  color: white;
+}
+
+main {
+  display: flex;
+  background-image: url(assets/img/bg-form.webp);
+}
+
+.program-screen {
+  display: none;
+}
+
+.form-screen {
+  display: none;
+}
+
+footer {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
