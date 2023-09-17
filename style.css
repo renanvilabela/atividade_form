@@ -6,7 +6,7 @@
 
 header {
   background-image: url(assets/img/bg-header.webp);
-  height: 300px;
+  height: 500px;
   width: 100%;
 }
 header .header-container {
@@ -17,7 +17,8 @@ header .header-container {
   margin: auto;
 }
 header .logo-img img {
-  justify-content: start;
+  justify-content: flex-start;
+  align-items: flex-start;
   width: 230px;
   height: 75px;
 }
