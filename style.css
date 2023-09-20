@@ -12,39 +12,52 @@ header {
 header .header-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   max-width: 950px;
   margin: auto;
 }
-header .logo-img img {
+header .logo-img {
+  display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+}
+header .logo-img img {
   width: 230px;
   height: 75px;
+}
+header .lamp-img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 header .lamp-img img {
   width: 150px;
   height: 150px;
 }
-header h1 {
+header .text-area h1 {
   justify-content: start;
   align-items: center;
   color: rgb(26, 136, 26);
   display: flex;
 }
-header h2 {
+header .text-area h2 {
   color: orange;
 }
-header h3 {
+header .text-area h3 {
   color: orange;
 }
-header h4 {
+header .text-area h4 {
   color: rgb(26, 136, 26);
 }
-header h5 {
+header .text-area h5 {
   color: rgb(26, 136, 26);
 }
-header button {
+header .text-area #invite-text {
+  color: rgb(81, 110, 81);
+}
+header .text-area #local-text {
+  color: rgb(81, 110, 81);
+}
+header .text-area button {
   width: 90px;
   height: 40px;
   justify-content: start;
